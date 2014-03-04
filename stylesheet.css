@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:600);
+@import url(http://fonts.googleapis.com/css?family=Exo:500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	padding:0;
+	margin:0;
+}
+
+header {
+	height:100%;
+	width:20%;
+	background-color:#3F3F41;
+	top:0;
+	float:left;
+	display:inline-block;
+	position:fixed;
+}
+
+.menu-wrapper {
+	margin-top:15%;
+	margin-left:15%;
+	height:100%;
+}
+
+
+#name h1 {
+	color:#F4F4F4;
+	font-family: 'Exo', sans-serif;
+}
+
+#menu {
+	padding:0;
+	margin:0;
+}
+
+li a {
+	text-decoration: none;
+	color:#F4F4F4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	padding:10px 0;
+	list-style-type: none;
+}
+
+.content {
+	float: right;
+	display: inline-block;
+	width:80%;
+	top:0;
+	margin:0;
+	right:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#news {
+	height:500px;
+	width:100%; /* news' width is 100% of the 80% of the screen's width */
+	background-color: #14A59A;
+	display:inline-block;
+}
+
+#contact {
+	height:500px;
+	width:100%;
+	background-color: #F4F4F4;
+	display:inline-block;
+}
+
+#about {
+	height:150px;
+	width:100%;
+	background-color: #747474;
+	display:inline-block;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
